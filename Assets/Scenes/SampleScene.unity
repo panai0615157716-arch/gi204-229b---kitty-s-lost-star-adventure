@@ -4510,7 +4510,7 @@ GameObject:
   - component: {fileID: 797672979}
   m_Layer: 0
   m_Name: Hit (2)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5114,7 +5114,7 @@ GameObject:
   - component: {fileID: 859448335}
   m_Layer: 0
   m_Name: Hit
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5410,6 +5410,10 @@ PrefabInstance:
     - target: {fileID: 160138, guid: 29974a951b75ba64d85cd76ae1e03ede, type: 3}
       propertyPath: m_Name
       value: Cactus_4 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 160138, guid: 29974a951b75ba64d85cd76ae1e03ede, type: 3}
+      propertyPath: m_TagString
+      value: Spike
       objectReference: {fileID: 0}
     - target: {fileID: 422694, guid: 29974a951b75ba64d85cd76ae1e03ede, type: 3}
       propertyPath: m_LocalScale.x
@@ -6258,7 +6262,7 @@ GameObject:
   - component: {fileID: 1031319625}
   m_Layer: 0
   m_Name: Hit (1)
-  m_TagString: Untagged
+  m_TagString: Spike
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8295,6 +8299,10 @@ PrefabInstance:
     - target: {fileID: 511357935709623811, guid: 252d84e2d6dc6604e91321bc2d912fc8, type: 3}
       propertyPath: m_Name
       value: LittleSquirrel_Happy
+      objectReference: {fileID: 0}
+    - target: {fileID: 511357935709623811, guid: 252d84e2d6dc6604e91321bc2d912fc8, type: 3}
+      propertyPath: m_TagString
+      value: Spike
       objectReference: {fileID: 0}
     - target: {fileID: 888165675229301945, guid: 252d84e2d6dc6604e91321bc2d912fc8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11159,6 +11167,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8339888144014641765, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2001276239}
+    - targetCorrespondingSourceObject: {fileID: 8339888144014641765, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2001276240}
   m_SourcePrefab: {fileID: 100100000, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
 --- !u!1 &2001276234 stripped
 GameObject:
@@ -11209,7 +11220,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b0c925068f3f834ab81f38d5374747d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControllerr
-  moveSpeed: 6
+  moveSpeed: 4
   rotationSpeed: 100
   jumpAcceleration: 5
 --- !u!114 &2001276239
@@ -11226,6 +11237,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CoinCollector
   score: 0
   scoreText: {fileID: 0}
+--- !u!114 &2001276240
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001276234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06629c79a40f6294e96545a38ab7455e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HP_Player
+  maxHP: 100
+  currentHP: 0
+  hpText: {fileID: 0}
 --- !u!1001 &2051992293
 PrefabInstance:
   m_ObjectHideFlags: 0
