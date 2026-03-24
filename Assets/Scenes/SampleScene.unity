@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 16425534}
   m_Layer: 0
   m_Name: B4
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,7 +147,7 @@ Transform:
   m_GameObject: {fileID: 16425532}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0, y: 0, z: -2.1}
   m_LocalScale: {x: 0.5197381, y: 31.912966, z: 31.359749}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -243,6 +243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Branch_5
       objectReference: {fileID: 0}
+    - target: {fileID: 129990, guid: f89cb707cc080fe4f93109b17f751eb0, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 423924, guid: f89cb707cc080fe4f93109b17f751eb0, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.04
@@ -309,6 +313,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.269491
@@ -352,6 +368,14 @@ PrefabInstance:
     - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_Name
       value: skull mountain (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -484,6 +508,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.603807
@@ -528,6 +564,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -546,6 +590,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.490001
@@ -590,6 +646,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -608,6 +672,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.9798565
@@ -652,6 +728,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -673,6 +757,10 @@ PrefabInstance:
     - target: {fileID: 3463627074367210514, guid: 7030b56548e773f47a3e8d65a2ba302c, type: 3}
       propertyPath: m_Name
       value: fir tree winter tilted
+      objectReference: {fileID: 0}
+    - target: {fileID: 3463627074367210514, guid: 7030b56548e773f47a3e8d65a2ba302c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 4276896639872212648, guid: 7030b56548e773f47a3e8d65a2ba302c, type: 3}
       propertyPath: m_LocalScale.x
@@ -818,6 +906,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.6
@@ -862,6 +962,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -883,6 +991,10 @@ PrefabInstance:
     - target: {fileID: 4978890121609894341, guid: cc47579fdfca6564ba3993fde50cef1c, type: 3}
       propertyPath: m_Name
       value: fir tree winter medium (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978890121609894341, guid: cc47579fdfca6564ba3993fde50cef1c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5643927889120461695, guid: cc47579fdfca6564ba3993fde50cef1c, type: 3}
       propertyPath: m_LocalScale.x
@@ -950,6 +1062,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5227
@@ -1006,6 +1130,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (36)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1027,6 +1159,10 @@ PrefabInstance:
     - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_Name
       value: TreeType1_07 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -1102,6 +1238,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fir tree winter medium (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4978890121609894341, guid: cc47579fdfca6564ba3993fde50cef1c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5643927889120461695, guid: cc47579fdfca6564ba3993fde50cef1c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.04
@@ -1174,7 +1314,7 @@ GameObject:
   - component: {fileID: 280690063}
   m_Layer: 0
   m_Name: desert
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1186,7 +1326,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 280690062}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8e014db69ce79bf4991dd02f34f72597, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -1270,7 +1410,6 @@ Transform:
   m_LocalScale: {x: 25, y: 1, z: 30}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1120796286}
   - {fileID: 1090877832}
   - {fileID: 832078633}
   - {fileID: 391280897}
@@ -1287,6 +1426,7 @@ Transform:
   - {fileID: 1780603480}
   - {fileID: 1119469393}
   - {fileID: 422662428}
+  - {fileID: 1771582734}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &312115474
@@ -1297,6 +1437,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.754985
@@ -1341,6 +1493,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1351,6 +1511,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
   m_PrefabInstance: {fileID: 312115474}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &314120888
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 314120889}
+  - component: {fileID: 314120890}
+  m_Layer: 0
+  m_Name: hit (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &314120889
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314120888}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.38, z: 0}
+  m_LocalScale: {x: 8.282598, y: 0.88518834, z: 8.282598}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 832078633}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &314120890
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 314120888}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &315437038
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1359,6 +1572,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.553808
@@ -1403,6 +1628,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1421,6 +1654,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.9168997
@@ -1477,6 +1722,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1495,6 +1748,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -18.39
@@ -1539,6 +1804,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1557,6 +1830,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.419855
@@ -1601,6 +1886,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1622,6 +1915,10 @@ PrefabInstance:
     - target: {fileID: 170736, guid: c8f241d1151c5a14dbac88fd4bea1d93, type: 3}
       propertyPath: m_Name
       value: TreeType5_3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 170736, guid: c8f241d1151c5a14dbac88fd4bea1d93, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 474212, guid: c8f241d1151c5a14dbac88fd4bea1d93, type: 3}
       propertyPath: m_LocalScale.x
@@ -1765,6 +2062,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.5299997
@@ -1808,6 +2117,14 @@ PrefabInstance:
     - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_Name
       value: skull mountain (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1901,6 +2218,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.933664
@@ -1945,6 +2274,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1966,6 +2303,10 @@ PrefabInstance:
     - target: {fileID: 189768, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
       propertyPath: m_Name
       value: Stone_3 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189768, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 496406, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
       propertyPath: m_LocalScale.x
@@ -2111,6 +2452,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.409999
@@ -2155,6 +2508,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2176,6 +2537,10 @@ PrefabInstance:
     - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_Name
       value: TreeType1_07 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -2251,6 +2616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fir tree winter medium
       objectReference: {fileID: 0}
+    - target: {fileID: 4978890121609894341, guid: cc47579fdfca6564ba3993fde50cef1c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 5643927889120461695, guid: cc47579fdfca6564ba3993fde50cef1c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.04
@@ -2317,6 +2686,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.659856
@@ -2361,6 +2742,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2371,6 +2760,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
   m_PrefabInstance: {fileID: 471922748}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &546659818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 546659819}
+  - component: {fileID: 546659820}
+  m_Layer: 0
+  m_Name: hit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &546659819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546659818}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.037, z: 0}
+  m_LocalScale: {x: 9.169423, y: 1.0123127, z: 8.34416}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 893245899}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &546659820
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 546659818}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &547952554
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 547952555}
+  - component: {fileID: 547952556}
+  m_Layer: 0
+  m_Name: hit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &547952555
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547952554}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.07}
+  m_LocalScale: {x: 9.963033, y: 1.8739718, z: 11.136288}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1090877832}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &547952556
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547952554}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &552847102
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2382,6 +2877,10 @@ PrefabInstance:
     - target: {fileID: 186700, guid: 458a74fb5b4f6ee4f8ec12ac39eb02a7, type: 3}
       propertyPath: m_Name
       value: MushroomType1_3 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 186700, guid: 458a74fb5b4f6ee4f8ec12ac39eb02a7, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 422556, guid: 458a74fb5b4f6ee4f8ec12ac39eb02a7, type: 3}
       propertyPath: m_LocalScale.x
@@ -2527,6 +3026,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeType5_3 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 170736, guid: c8f241d1151c5a14dbac88fd4bea1d93, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 474212, guid: c8f241d1151c5a14dbac88fd4bea1d93, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.035323717
@@ -2601,6 +3104,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: SnowMan
       objectReference: {fileID: 0}
+    - target: {fileID: 2373682868127462103, guid: 15bd21d5ac8926646a6bcb820850582d, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 7793912651011073334, guid: 15bd21d5ac8926646a6bcb820850582d, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.025168752
@@ -2671,6 +3178,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.050143
@@ -2715,6 +3234,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2737,9 +3264,10 @@ GameObject:
   - component: {fileID: 592883645}
   - component: {fileID: 592883644}
   - component: {fileID: 592883643}
+  - component: {fileID: 592883647}
   m_Layer: 0
   m_Name: winter
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2751,7 +3279,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 592883642}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: ed4206bfd934d0c438e6a2758198c712, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -2836,7 +3364,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 893245899}
-  - {fileID: 1771582734}
   - {fileID: 1994766020}
   - {fileID: 467074761}
   - {fileID: 196802669}
@@ -2849,8 +3376,36 @@ Transform:
   - {fileID: 1618669646}
   - {fileID: 1009196872}
   - {fileID: 905120976}
+  - {fileID: 1120796286}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &592883647
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 592883642}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 126
+  m_CollisionDetection: 0
 --- !u!1001 &593829410
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2862,6 +3417,10 @@ PrefabInstance:
     - target: {fileID: 158626, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
       propertyPath: m_Name
       value: Shrub_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 158626, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 437086, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
       propertyPath: m_LocalScale.x
@@ -2937,6 +3496,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeType2_06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 188242, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 489386, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.03424378
@@ -2955,7 +3518,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489386, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0455701
+      value: 0.43
       objectReference: {fileID: 0}
     - target: {fileID: 489386, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3010,6 +3573,10 @@ PrefabInstance:
     - target: {fileID: 151938, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_Name
       value: Terrain_02
+      objectReference: {fileID: 0}
+    - target: {fileID: 151938, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalScale.x
@@ -3069,7 +3636,13 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 51e9691c8a1860f4096463e71bec94ed, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1422733254}
+    - targetCorrespondingSourceObject: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2095820530}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
 --- !u!4 &652942004 stripped
@@ -3085,6 +3658,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.333808
@@ -3129,6 +3714,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3150,6 +3743,10 @@ PrefabInstance:
     - target: {fileID: 102184, guid: d49634e20277dae4bb3439bfd5262bb7, type: 3}
       propertyPath: m_Name
       value: DeadTree_08
+      objectReference: {fileID: 0}
+    - target: {fileID: 102184, guid: d49634e20277dae4bb3439bfd5262bb7, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 400038, guid: d49634e20277dae4bb3439bfd5262bb7, type: 3}
       propertyPath: m_LocalScale.x
@@ -3306,6 +3903,59 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &710505734
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 710505735}
+  - component: {fileID: 710505736}
+  m_Layer: 0
+  m_Name: hit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &710505735
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710505734}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 10.396, y: 2.0604386, z: 10.396}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 832078633}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &710505736
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 710505734}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &716208311
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3317,6 +3967,10 @@ PrefabInstance:
     - target: {fileID: 158626, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
       propertyPath: m_Name
       value: Shrub_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 158626, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 437086, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
       propertyPath: m_LocalScale.x
@@ -3454,6 +4108,135 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 412670, guid: 85d0dccb426028947bcac0bf4729cb6c, type: 3}
   m_PrefabInstance: {fileID: 770700248}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &787662156
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 787662157}
+  - component: {fileID: 787662158}
+  m_Layer: 0
+  m_Name: hit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &787662157
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787662156}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.36, z: 0}
+  m_LocalScale: {x: 10.806732, y: 3.367595, z: 10.806732}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1120796286}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &787662158
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 787662156}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &813502402
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5008547642628360682, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_Name
+      value: Base
+      objectReference: {fileID: 0}
+    - target: {fileID: 5008547642628360682, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.4804235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.4804235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2.4804235
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 20.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -94.62
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7187374638343944646, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5008547642628360682, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1968551804}
+  m_SourcePrefab: {fileID: 100100000, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
 --- !u!1001 &831110480
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3598,7 +4381,13 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 6c55cb31dbcb6e841925398ed04f147e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 710505735}
+    - targetCorrespondingSourceObject: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 314120889}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
 --- !u!4 &832078633 stripped
@@ -3617,6 +4406,10 @@ PrefabInstance:
     - target: {fileID: 176184, guid: 7b008d3317859a847b83f2613744530b, type: 3}
       propertyPath: m_Name
       value: Apple
+      objectReference: {fileID: 0}
+    - target: {fileID: 176184, guid: 7b008d3317859a847b83f2613744530b, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 425266, guid: 7b008d3317859a847b83f2613744530b, type: 3}
       propertyPath: m_LocalScale.x
@@ -3692,6 +4485,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stump_03
       objectReference: {fileID: 0}
+    - target: {fileID: 193400, guid: 61c514000f4738f4ca05258453cb351e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 414194, guid: 61c514000f4738f4ca05258453cb351e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.04
@@ -3762,6 +4559,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Terrain_02 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 151938, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.044030093
@@ -3776,7 +4577,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.292
+      value: 0.469
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3820,7 +4621,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4130ddcd605dea745b4b79a513e60927, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 546659819}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
 --- !u!4 &893245899 stripped
@@ -3836,6 +4640,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.84
@@ -3879,6 +4695,14 @@ PrefabInstance:
     - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_Name
       value: skull mountain (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4024,6 +4848,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LogsPack
       objectReference: {fileID: 0}
+    - target: {fileID: 8835625915068562184, guid: 4a77570753634174ba4d87842e8e6fdd, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4045,6 +4873,10 @@ PrefabInstance:
     - target: {fileID: 189768, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
       propertyPath: m_Name
       value: Stone_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 189768, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 496406, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
       propertyPath: m_LocalScale.x
@@ -4193,13 +5025,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.33, z: -5.83}
+  m_LocalRotation: {x: 0.05837482, y: -0, z: -0, w: 0.9982948}
+  m_LocalPosition: {x: -0.04213992, y: 0.898, z: -1.8000002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Father: {fileID: 2001276235}
+  m_LocalEulerAnglesHint: {x: 6.693, y: 0, z: 0}
 --- !u!1001 &978399703
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4211,6 +5043,10 @@ PrefabInstance:
     - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_Name
       value: TreeType1_07
+      objectReference: {fileID: 0}
+    - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -4286,6 +5122,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: LampPost
       objectReference: {fileID: 0}
+    - target: {fileID: 5948194149154411806, guid: d5e3e07b325bd744b91f805ce2283b3c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     - target: {fileID: 8096337179319099468, guid: d5e3e07b325bd744b91f805ce2283b3c, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.032385714
@@ -4359,6 +5199,10 @@ PrefabInstance:
     - target: {fileID: 4822431972316174437, guid: 455db9c7bcf874a41be6bdeb8a290459, type: 3}
       propertyPath: m_Name
       value: fir tree winter large (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822431972316174437, guid: 455db9c7bcf874a41be6bdeb8a290459, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5307326102620078815, guid: 455db9c7bcf874a41be6bdeb8a290459, type: 3}
       propertyPath: m_LocalScale.x
@@ -4434,6 +5278,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stump_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 193400, guid: 61c514000f4738f4ca05258453cb351e, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 414194, guid: 61c514000f4738f4ca05258453cb351e, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.04
@@ -4504,6 +5352,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DeadTree_08 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 102184, guid: d49634e20277dae4bb3439bfd5262bb7, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 400038, guid: d49634e20277dae4bb3439bfd5262bb7, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.034109842
@@ -4570,6 +5422,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.359999
@@ -4614,6 +5478,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4635,6 +5507,10 @@ PrefabInstance:
     - target: {fileID: 4822431972316174437, guid: 455db9c7bcf874a41be6bdeb8a290459, type: 3}
       propertyPath: m_Name
       value: fir tree winter large
+      objectReference: {fileID: 0}
+    - target: {fileID: 4822431972316174437, guid: 455db9c7bcf874a41be6bdeb8a290459, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5307326102620078815, guid: 455db9c7bcf874a41be6bdeb8a290459, type: 3}
       propertyPath: m_LocalScale.x
@@ -4768,7 +5644,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 6c55cb31dbcb6e841925398ed04f147e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 547952555}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
 --- !u!4 &1090877832 stripped
@@ -4784,6 +5663,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.591993
@@ -4828,6 +5719,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4849,6 +5748,10 @@ PrefabInstance:
     - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_Name
       value: TreeType1_07 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -4992,7 +5895,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 280690066}
+    m_TransformParent: {fileID: 592883646}
     m_Modifications:
     - target: {fileID: 151938, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_Name
@@ -5000,7 +5903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.030165866
+      value: 0.030165864
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalScale.y
@@ -5008,7 +5911,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.020959001
+      value: 0.020959003
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5020,7 +5923,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.312
+      value: 0.31200004
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalRotation.w
@@ -5056,7 +5959,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 4130ddcd605dea745b4b79a513e60927, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 787662157}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
 --- !u!4 &1120796286 stripped
@@ -5064,6 +5970,61 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
   m_PrefabInstance: {fileID: 1120796285}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1177800336
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1177800337}
+  - component: {fileID: 1177800338}
+  m_Layer: 0
+  m_Name: Hitblock
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1177800337
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177800336}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.332, z: 0}
+  m_LocalScale: {x: 0.5713685, y: 0.5713685, z: 0.48391485}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2001276235}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!136 &1177800338
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1177800336}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1179845981
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5075,6 +6036,10 @@ PrefabInstance:
     - target: {fileID: 176184, guid: 7b008d3317859a847b83f2613744530b, type: 3}
       propertyPath: m_Name
       value: Apple (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 176184, guid: 7b008d3317859a847b83f2613744530b, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 425266, guid: 7b008d3317859a847b83f2613744530b, type: 3}
       propertyPath: m_LocalScale.x
@@ -5152,7 +6117,7 @@ GameObject:
   - component: {fileID: 1187004863}
   m_Layer: 0
   m_Name: B2
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5166,7 +6131,7 @@ Transform:
   m_GameObject: {fileID: 1187004861}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.949868, y: -1, z: -45.829872}
+  m_LocalPosition: {x: 11.9, y: -1, z: -45.829872}
   m_LocalScale: {x: 0.5197381, y: 31.912966, z: 96.113}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5264,7 +6229,7 @@ GameObject:
   - component: {fileID: 1198221602}
   m_Layer: 0
   m_Name: B3
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5278,7 +6243,7 @@ Transform:
   m_GameObject: {fileID: 1198221600}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -0.86, y: -1, z: -90.519875}
+  m_LocalPosition: {x: -0.86, y: -1, z: -89}
   m_LocalScale: {x: 0.5197381, y: 31.912966, z: 31.359749}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5373,6 +6338,10 @@ PrefabInstance:
     - target: {fileID: 968982258182876294, guid: a09f95ca39f3483479dd1693c94b0939, type: 3}
       propertyPath: m_Name
       value: Barrel
+      objectReference: {fileID: 0}
+    - target: {fileID: 968982258182876294, guid: a09f95ca39f3483479dd1693c94b0939, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 7818108540775168797, guid: a09f95ca39f3483479dd1693c94b0939, type: 3}
       propertyPath: m_LocalScale.x
@@ -5522,6 +6491,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeType2_06 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 188242, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 489386, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.03253897
@@ -5540,7 +6513,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489386, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0455701
+      value: 0.51
       objectReference: {fileID: 0}
     - target: {fileID: 489386, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5592,6 +6565,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.000143
@@ -5636,6 +6621,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5657,6 +6650,10 @@ PrefabInstance:
     - target: {fileID: 186700, guid: 458a74fb5b4f6ee4f8ec12ac39eb02a7, type: 3}
       propertyPath: m_Name
       value: MushroomType1_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 186700, guid: 458a74fb5b4f6ee4f8ec12ac39eb02a7, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 422556, guid: 458a74fb5b4f6ee4f8ec12ac39eb02a7, type: 3}
       propertyPath: m_LocalScale.x
@@ -5728,6 +6725,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeType2_06 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 188242, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 489386, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.03270648
@@ -5746,7 +6747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 489386, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.0455701
+      value: 0.544
       objectReference: {fileID: 0}
     - target: {fileID: 489386, guid: 7572b8494dca61844ae502ca4d47915f, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5804,7 +6805,7 @@ GameObject:
   - component: {fileID: 1341774459}
   m_Layer: 0
   m_Name: Forest
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5816,7 +6817,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1341774458}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 04aa393f7f969194b83074dce023f9c5, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -6009,6 +7010,59 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 422694, guid: 29974a951b75ba64d85cd76ae1e03ede, type: 3}
   m_PrefabInstance: {fileID: 1406055494}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1422733253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1422733254}
+  - component: {fileID: 1422733255}
+  m_Layer: 0
+  m_Name: Hit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1422733254
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422733253}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.18, y: 0.63, z: -0.33}
+  m_LocalScale: {x: 9.385134, y: -0.8088639, z: 9.385134}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 652942004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1422733255
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422733253}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1443482909
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6017,6 +7071,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.613664
@@ -6061,6 +7127,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6082,6 +7156,10 @@ PrefabInstance:
     - target: {fileID: 4978890121609894341, guid: cc47579fdfca6564ba3993fde50cef1c, type: 3}
       propertyPath: m_Name
       value: fir tree winter medium (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4978890121609894341, guid: cc47579fdfca6564ba3993fde50cef1c, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 5643927889120461695, guid: cc47579fdfca6564ba3993fde50cef1c, type: 3}
       propertyPath: m_LocalScale.x
@@ -6152,6 +7230,10 @@ PrefabInstance:
     - target: {fileID: 158626, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
       propertyPath: m_Name
       value: Shrub_03 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 158626, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 437086, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
       propertyPath: m_LocalScale.x
@@ -6301,6 +7383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TreeType5_3 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 170736, guid: c8f241d1151c5a14dbac88fd4bea1d93, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 474212, guid: c8f241d1151c5a14dbac88fd4bea1d93, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.031813346
@@ -6371,6 +7457,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.879854
@@ -6415,6 +7513,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6436,6 +7542,10 @@ PrefabInstance:
     - target: {fileID: 129990, guid: f89cb707cc080fe4f93109b17f751eb0, type: 3}
       propertyPath: m_Name
       value: Branch_5 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 129990, guid: f89cb707cc080fe4f93109b17f751eb0, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 423924, guid: f89cb707cc080fe4f93109b17f751eb0, type: 3}
       propertyPath: m_LocalScale.x
@@ -6629,6 +7739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Log-Axe
       objectReference: {fileID: 0}
+    - target: {fileID: 3529004526960667934, guid: 5eaa9bd6ba899a947823413745e9e6ae, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6647,6 +7761,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -22.279999
@@ -6691,6 +7817,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6709,6 +7843,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.62
@@ -6753,6 +7899,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6774,6 +7928,10 @@ PrefabInstance:
     - target: {fileID: 189768, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
       propertyPath: m_Name
       value: Stone_3 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 189768, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 496406, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
       propertyPath: m_LocalScale.x
@@ -6845,6 +8003,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.41
@@ -6889,6 +8059,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6907,6 +8085,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.9168997
@@ -6963,6 +8153,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (34)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6979,11 +8177,15 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 592883646}
+    m_TransformParent: {fileID: 280690066}
     m_Modifications:
     - target: {fileID: 151938, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_Name
       value: Terrain_02 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 151938, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalScale.x
@@ -7007,7 +8209,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.74799997
+      value: 0.25200006
       objectReference: {fileID: 0}
     - target: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7043,7 +8245,10 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 6c55cb31dbcb6e841925398ed04f147e, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 404576, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2103970439}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 44a93fec55b694342847efc8ce1a73da, type: 3}
 --- !u!4 &1771582734 stripped
@@ -7137,6 +8342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stone_3 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 189768, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 496406, guid: 084ccf207a3a8a04ab5fa4d0cb470c55, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.05254818
@@ -7207,6 +8416,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.9168997
@@ -7263,6 +8484,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (33)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7284,6 +8513,10 @@ PrefabInstance:
     - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_Name
       value: TreeType1_07 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -7358,6 +8591,10 @@ PrefabInstance:
     - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_Name
       value: TreeType1_07 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 182038, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 477202, guid: 87475ce363e4bcf40b5791256be68f7d, type: 3}
       propertyPath: m_LocalScale.x
@@ -7435,7 +8672,7 @@ GameObject:
   - component: {fileID: 1863303978}
   m_Layer: 0
   m_Name: B1
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7449,7 +8686,7 @@ Transform:
   m_GameObject: {fileID: 1863303976}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.569869, y: -1, z: -45.239872}
+  m_LocalPosition: {x: -13.3, y: -1, z: -45.239872}
   m_LocalScale: {x: 0.5197381, y: 31.912966, z: 96.113}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -7541,6 +8778,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.426191
@@ -7585,6 +8834,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7603,6 +8860,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.79
@@ -7647,6 +8916,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7665,6 +8942,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -23.326189
@@ -7709,6 +8998,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7727,6 +9024,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.43
@@ -7771,6 +9080,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7792,6 +9109,10 @@ PrefabInstance:
     - target: {fileID: 158626, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
       propertyPath: m_Name
       value: Shrub_03 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 158626, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     - target: {fileID: 437086, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
       propertyPath: m_LocalScale.x
@@ -7855,6 +9176,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 437086, guid: 49b0362a631aa79468a77f04e9cdc298, type: 3}
   m_PrefabInstance: {fileID: 1956110997}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1968551799 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5008547642628360682, guid: 8fae5d3e5ada73041ae8d02e73c5ee80, type: 3}
+  m_PrefabInstance: {fileID: 813502402}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &1968551804
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968551799}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1971434141
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7863,6 +9216,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.38
@@ -7907,6 +9272,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7925,6 +9298,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.65
@@ -7969,6 +9354,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7990,6 +9383,10 @@ PrefabInstance:
     - target: {fileID: 6978614032680440048, guid: 5550f54276c3c2341a0a96cc984a1003, type: 3}
       propertyPath: m_Name
       value: wooden winter house 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6978614032680440048, guid: 5550f54276c3c2341a0a96cc984a1003, type: 3}
+      propertyPath: m_TagString
+      value: Ground
       objectReference: {fileID: 0}
     - target: {fileID: 7751491905200392778, guid: 5550f54276c3c2341a0a96cc984a1003, type: 3}
       propertyPath: m_LocalScale.x
@@ -8053,6 +9450,127 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7751491905200392778, guid: 5550f54276c3c2341a0a96cc984a1003, type: 3}
   m_PrefabInstance: {fileID: 1994766019}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2001276233
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 8339888144014641765, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_Name
+      value: LittleCat_Angry
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.00386008
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.566
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.028
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1177800337}
+    - targetCorrespondingSourceObject: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 963194228}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 8339888144014641765, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2001276236}
+    - targetCorrespondingSourceObject: {fileID: 8339888144014641765, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2001276237}
+  m_SourcePrefab: {fileID: 100100000, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+--- !u!1 &2001276234 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8339888144014641765, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+  m_PrefabInstance: {fileID: 2001276233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &2001276235 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8716414403987919071, guid: 21304eaf71c81464aa4b9ef3b5665fce, type: 3}
+  m_PrefabInstance: {fileID: 2001276233}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &2001276236
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001276234}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
+--- !u!114 &2001276237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2001276234}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9b0c925068f3f834ab81f38d5374747d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerControllerr
+  moveSpeed: 3
+  rotationSpeed: 100
+  jumpAcceleration: 5
 --- !u!1001 &2051992293
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8061,6 +9579,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalScale.x
       value: 3.9168997
@@ -8116,6 +9646,14 @@ PrefabInstance:
     - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_Name
       value: skull mountain (32)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8190,6 +9728,10 @@ PrefabInstance:
     - target: {fileID: 3351010397087084706, guid: 48c4335c9b485ce49a9ab4f4f6f52150, type: 3}
       propertyPath: m_Name
       value: Baker_house
+      objectReference: {fileID: 0}
+    - target: {fileID: 3351010397087084706, guid: 48c4335c9b485ce49a9ab4f4f6f52150, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8283,6 +9825,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.059999
@@ -8327,6 +9881,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8337,6 +9899,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
   m_PrefabInstance: {fileID: 2085320861}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2095820529
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2095820530}
+  - component: {fileID: 2095820531}
+  m_Layer: 0
+  m_Name: Hit (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2095820530
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095820529}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.17999943, y: 1.51, z: -0.32999974}
+  m_LocalScale: {x: 9.385134, y: -0.8088639, z: 9.385134}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 652942004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2095820531
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2095820529}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &2103970438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2103970439}
+  - component: {fileID: 2103970440}
+  m_Layer: 0
+  m_Name: Hit
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2103970439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103970438}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -0.13}
+  m_LocalScale: {x: 9.399284, y: 2.588731, z: 8.746257}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1771582734}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &2103970440
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2103970438}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &2112417571
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8345,6 +10013,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 373814322}
     m_Modifications:
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 290767722679878685, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_ProvidesContacts
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5074066171074888127, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
       propertyPath: m_LocalPosition.x
       value: -15.38
@@ -8389,6 +10069,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: skull mountain (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 5557834328774187781, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_TagString
+      value: Ground
+      objectReference: {fileID: 0}
+    - target: {fileID: 6206409506300181200, guid: b8c5edca6b9707249bdee190239a0d1e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8403,10 +10091,11 @@ Transform:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 963194228}
   - {fileID: 705507995}
   - {fileID: 373814322}
   - {fileID: 1341774462}
   - {fileID: 280690066}
   - {fileID: 592883646}
   - {fileID: 72990596}
+  - {fileID: 813502402}
+  - {fileID: 2001276233}
