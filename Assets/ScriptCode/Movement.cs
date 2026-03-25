@@ -29,7 +29,7 @@ public class PlayerControllerr : MonoBehaviour
         {
             anim.SetBool("IsWalking", false);
         }
-        //  ส่วนของการกระโดด
+        // ส่วนของการกระโดด
         // เงื่อนไขต้องกด Spacebar และ ตัวละครต้องแตะพื้นอยู่ (isGrounded == true) ถึงจะกระโดดได้
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
@@ -51,10 +51,9 @@ public class PlayerControllerr : MonoBehaviour
     // ฟังก์ชันนี้จะทำงานอัตโนมัติเมื่อกล่อง Collider ของแมว หล่นลงมาชนกับกล่อง Collider ของพื้น
     void OnCollisionEnter(Collision collision)
     {
-        // ถ้าวัตถุที่แมวตกลงมาชนมี Tag ว่า "Ground"
+        // ถ้าวัตถุที่แมวชนมี Tag ว่า "Ground" จะสามารถโดดได้อีก
         if (collision.gameObject.CompareTag("Ground"))
         {
-            // ให้รีเซ็ตสถานะว่าเท้าแตะพื้นแล้วเพื่อให้พร้อมกระโดดครั้งต่อไป
             isGrounded = true;
         }
     }
