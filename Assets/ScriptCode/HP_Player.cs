@@ -1,6 +1,7 @@
 using UnityEngine;
-using TMPro;
 using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 public class HP_Player : MonoBehaviour
 {
     [Header("HP Settings")]
@@ -8,21 +9,38 @@ public class HP_Player : MonoBehaviour
     public int currentHP;
     [Header("UI Settings")]
     public TextMeshProUGUI hpText;
-    public Image healthBarFill; 
+    public Image healthBarFill;
+    [Header("Sound Settings")]
+    public GameObject hurtSoundPrefab;
+    [Header("Game Over Settings")]
+    public GameObject gameOverPanel;
     void Start()
     {
         currentHP = maxHP;
         UpdateHPUI();
+        if (gameOverPanel != null)
+        {
+            gameOverPanel.SetActive(false);
+        }
+        Time.timeScale = 1f;
     }
     public void TakeDamage(int damage)
     {
         currentHP -= damage;
         if (currentHP < 0) currentHP = 0;
         UpdateHPUI();
-        Debug.Log("เลือดลด! เหลือ: " + currentHP);
+        if (hurtSoundPrefab != null)
+        {
+            Instantiate(hurtSoundPrefab);
+        }
         if (currentHP <= 0)
         {
             Debug.Log("Game Over!");
+            if (gameOverPanel != null)
+            {
+                gameOverPanel.SetActive(true);
+                Time.timeScale = 0f;
+            }
         }
     }
     void UpdateHPUI()
@@ -42,5 +60,12 @@ public class HP_Player : MonoBehaviour
         {
             TakeDamage(20);
         }
+    }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f; // สั่งให้เวลาเกมกลับมาเดินปกติ 
+                             // สั่งโหลดฉากปัจจุบันขึ้นมาใหม่ทั้งหมด
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 }

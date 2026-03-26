@@ -1,5 +1,5 @@
 using UnityEngine;
-public class SlideRight : MonoBehaviour
+public class KinematicPlatform : MonoBehaviour
 {
     [Header("Kinematics Settings (s = v * t)")]
     public float velocity = 3.0f;
