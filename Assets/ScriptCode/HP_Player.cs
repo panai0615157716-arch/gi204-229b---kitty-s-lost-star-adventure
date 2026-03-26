@@ -12,6 +12,7 @@ public class HP_Player : MonoBehaviour
     public Image healthBarFill;
     [Header("Sound Settings")]
     public GameObject hurtSoundPrefab;
+    public GameObject gameOverSoundPrefab;
     [Header("Game Over Settings")]
     public GameObject gameOverPanel;
     void Start()
@@ -29,17 +30,28 @@ public class HP_Player : MonoBehaviour
         currentHP -= damage;
         if (currentHP < 0) currentHP = 0;
         UpdateHPUI();
-        if (hurtSoundPrefab != null)
-        {
-            Instantiate(hurtSoundPrefab);
-        }
+
         if (currentHP <= 0)
         {
             Debug.Log("Game Over!");
+
+            if (gameOverSoundPrefab != null)
+            {
+                Instantiate(gameOverSoundPrefab);
+            }
+
             if (gameOverPanel != null)
             {
                 gameOverPanel.SetActive(true);
                 Time.timeScale = 0f;
+            }
+        }
+        else
+        {
+
+            if (hurtSoundPrefab != null)
+            {
+                Instantiate(hurtSoundPrefab);
             }
         }
     }
@@ -61,11 +73,17 @@ public class HP_Player : MonoBehaviour
             TakeDamage(20);
         }
     }
-
     public void RestartGame()
     {
-        Time.timeScale = 1f; // สั่งให้เวลาเกมกลับมาเดินปกติ 
-                             // สั่งโหลดฉากปัจจุบันขึ้นมาใหม่ทั้งหมด
+        Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+    public void QuitGame()
+    {
+        Debug.Log("กดออกจากเกมแล้วจ้า!");
+        Application.Quit();
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 }
