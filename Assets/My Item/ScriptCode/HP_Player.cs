@@ -78,12 +78,15 @@ public class HP_Player : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-    public void QuitGame()
+    public void GotoMainMenu()
     {
-        Debug.Log("กดออกจากเกมแล้วจ้า!");
-        Application.Quit();
-#if UNITY_EDITOR
-        UnityEditor.EditorApplication.isPlaying = false;
-#endif
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
+
     }
+
+
+
+
+
 }

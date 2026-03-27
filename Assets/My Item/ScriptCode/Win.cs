@@ -64,4 +64,16 @@ public class Win : MonoBehaviour
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    public void GotoMainMenu()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene(0);
+
+    }
+
+
+
+
+
+
 }
